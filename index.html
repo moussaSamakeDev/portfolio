@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Bootstrap</title>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<!-- navbar expand lg = responsive à partide lg, = 992px -->
+<!-- Navbar light donne la couleur grise à notre icone hamburger -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+   
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+      
+        <div class="collapse navbar-collapse" id="navbarToggler">
+
+          <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#about">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+          </ul>
+  
+
+        </div>
+      </nav>
+
+      <!-- Accueil -->
+
+<div class="text-white bg-dark text-center d-flex flex-column align-items-center w-100 h-75 p-3 mx-auto" id="accueil">
+
+    
+      <div class="txtAccueil mt-auto">
+        <br>
+        <br>
+        <img src="ressources/img-bleu-profile.png" class="imgProfileAcc" alt="profile">
+        <h1>Salut, moi c'est Moussa.</h1>
+        <p class="lead">Je suis développeur Front-End JR, spécialisé dans les différents frameworks JavaScript. 🚀</p>
+        <p class="lead">
+          <a href="#about" class="btn btn-lg btn-secondary">En savoir plus</a>
+        </p>    
+    </div>
+    
+    <footer class="txtAccueilBot mt-auto">
+        <div class="inner">
+            <p>1 ère année BUT MMI Université Gustave Eiffel - Meaux</p>
+        </div>
+    </footer>
+</div>
+
+<!-- Portfolio -->
+
+
+
+
+
+<div class="py-5" id="portfolio">
+
+    <h2 class="text-center mb-5 text-uppercase">Portfolio</h2>
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/Netflix-clone.png" alt="Card image">
+                <div class="card-body">
+                  <h4>Clone Netflix</h4>
+                  <p class="card-text">By Sony Sangha's tutorial - Clone de netflix avec React JS et TMDB API.</p>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="https://amazing-boyd-e0dc51.netlify.app/">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/Amazon CLone.png" alt="Card image">
+                <div class="card-body">
+                  <h4>Amazon Clone</h4>
+                  <p class="card-text">By CleverProgrammer course - clone de l'accueil de Amazon ReactJS Netlify</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="https://infallible-khorana-6f103d.netlify.app/">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/LinkedinPicture/Capture d’écran 2022-03-13 à 20.51.16.png" alt="Card image">
+                <div class="card-body">
+                 <h4>Linkedin Clone</h4>
+                  <p class="card-text">By Sony Sangha's tutorial - page d'accueil avec l'utilisation de Firebase </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="https://linkedin-262d0.web.app/">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/Site Blog/site-blog.png" alt="Card image">
+                <div class="card-body">
+                <h4>Blog Mern</h4>
+                  <p class="card-text">By CleverProgrammer course - creation d'un blog avec JS et NodeJS</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/beatbox.png" alt="Card image">
+                <div class="card-body">
+                <h4>BeatBox App</h4>
+                  <p class="card-text">By CleverProgrammer course - Creation de table de son avec es6 syntax</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/resaux/img-siteDogon.png" alt="Card image">
+                <div class="card-body">
+                <h4>Projet Site coiffure PHP</h4>
+                  <p class="card-text">Premier site avec l'utilisation de php et Mysql lors d'un projet à l'université gustave eiffel avec carroussel bootstrap</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/moussaSamakeDev/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" disabled>
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/js.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>JavaScript moderne</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/grid.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4>Grille CSS</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/bulma.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>Framework Bulma</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div> 
+
+<!-- Section à propos -->
+<section class="bg-dark text-white mb-0" id="about">
+
+        <div class="container py-5">
+    
+          <!-- About Section Heading -->
+          <h2 class="text-center text-uppercase text-white pb-3">À Propos</h2>
+    
+          <!-- About Section Content -->
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <p class="lead">Moi c'est Samake Moussa et je suis étudiant dans le developpement web spécialisé ReactJS, je suis actuellement en 1ère année à l'université gustave eiffel BUT MMI.  </p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+              <p class="lead">Je suis également un étudiant du cour profit with react js de la chaine youtube CleverProgrammer, j'ai également suivi plusieurs cours en ligne notamment sur Udemy, mon objectif est de devenir developper freelance ou de vivre de mes logiciels saas. </p>
+            </div>
+          </div>
+    
+          <!-- About Section Button -->
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="#contact-form">
+              Contactez-moi
+            </a>
+          </div>
+    
+        </div>
+      </section>
+<!-- Mes Services -->
+
+<h2 class="text-center my-5 text-uppercase" id="services">Mes Services</h2>
+<div class="container">
+           <!-- Three columns of text below the carousel -->
+           <div class="row d-flex justify-content-center">
+
+              <!-- <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                  <img class="" src="ressources/vue.png" alt="framework logo" width="120" height="120">
+                  <h2 class="text-center" >Vue</h2>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p>
+                    <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                  <img class="" src="ressources/angular-icon.svg" alt="framework logo" width="140" height="140">
+                  <h2 class="text-center" >Angular</h2>
+                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  <p>
+                    <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p>
+                </div> -->
+
+
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <img class="" src="ressources/React.png" alt="framework logo" width="140" height="140">
+                    <h2 class="text-center" >React</h2>
+                    <p>Je me suis spécialisé dans la librairie React JS car cette librairie offre un large panel de possibilité ainsi qu'une architecture assez simple.</p>
+                    <p>
+                      <!-- <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p> -->
+                  </div>
+            </div>
+
+       
+      
+</div>
+
+
+
+    <!--  Contact Form  -->
+
+<section class="bg-dark text-white mb-0" id="contact">
+
+  <div class="container">
+    <h2 class="titreContact text-center">Rentrons en Contact !</h2>
+    <div class="row">
+        <div class="col-10 mx-auto">
+          
+          <form id="contact-form" role="form" action="mailto:moussa.samakepro@gmail.com" enctype="text/plain">
+            
+           
+                <div class="col-md-12 mb-5">
+                  <p><a href="https://twitter.com/mou_ssaasDev">Twitter</a></p>
+                  <p><a href="https://github.com/moussaSamakeDev/">Github</a></p>
+                  <p><a href="https://www.linkedin.com/in/moussa-samake-643619232/">Linkedin</a></p>
+                  <p>Numero de telephone: 06 18 51 35 80</p>
+                  <input type="submit" class="btn btn-success btn-send" value="Envoyez un mail">
+                </div>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+        
+      </div>    
+    </div>
+  </section>
+    
+    
+    
+    <footer class="bg-dark text-white">
+      <p class="text-center m-0">
+        @Tout Droits Réservés - Moussa Samake
+    </p>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
